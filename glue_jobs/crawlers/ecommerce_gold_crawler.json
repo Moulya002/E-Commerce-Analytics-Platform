@@ -1,0 +1,23 @@
+{
+  "Name": "ecommerce_gold_crawler",
+  "Role": "AWSGlueServiceRole",
+  "DatabaseName": "ecommerce_analytics",
+  "Description": "Crawl gold layer business-ready analytics tables",
+  "Targets": {
+    "S3Targets": [
+      {
+        "Path": "s3://ecommerce-data-lake/gold/daily_revenue/"
+      },
+      {
+        "Path": "s3://ecommerce-data-lake/gold/session_analytics/"
+      },
+      {
+        "Path": "s3://ecommerce-data-lake/gold/product_performance/"
+      }
+    ]
+  },
+  "SchemaChangePolicy": {
+    "UpdateBehavior": "UPDATE_IN_DATABASE",
+    "DeleteBehavior": "LOG"
+  }
+}

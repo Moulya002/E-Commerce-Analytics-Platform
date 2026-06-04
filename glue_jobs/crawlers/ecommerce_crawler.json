@@ -1,0 +1,30 @@
+{
+  "Name": "ecommerce_bronze_crawler",
+  "Role": "AWSGlueServiceRole",
+  "DatabaseName": "ecommerce_analytics",
+  "Description": "Crawl bronze layer parquet datasets in S3 data lake",
+  "Targets": {
+    "S3Targets": [
+      {
+        "Path": "s3://ecommerce-data-lake/bronze/orders/"
+      },
+      {
+        "Path": "s3://ecommerce-data-lake/bronze/payments/"
+      },
+      {
+        "Path": "s3://ecommerce-data-lake/bronze/clicks/"
+      },
+      {
+        "Path": "s3://ecommerce-data-lake/bronze/users/"
+      }
+    ]
+  },
+  "SchemaChangePolicy": {
+    "UpdateBehavior": "UPDATE_IN_DATABASE",
+    "DeleteBehavior": "LOG"
+  },
+  "RecrawlPolicy": {
+    "RecrawlBehavior": "CRAWL_NEW_FOLDERS_ONLY"
+  },
+  "Configuration": "{\"Version\":1.0,\"Grouping\":{\"TableGroupingPolicy\":\"CombineCompatibleSchemas\"}}"
+}
