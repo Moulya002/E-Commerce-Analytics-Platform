@@ -1,0 +1,54 @@
+{
+  "topics": [
+    {
+      "name": "orders",
+      "partitions": 6,
+      "replication_factor": 1,
+      "partition_key": "order_id",
+      "consumer_group": "spark-orders-consumer",
+      "retention_ms": 604800000,
+      "description": "Order placement and status events"
+    },
+    {
+      "name": "payments",
+      "partitions": 6,
+      "replication_factor": 1,
+      "partition_key": "payment_id",
+      "consumer_group": "spark-payments-consumer",
+      "retention_ms": 604800000,
+      "description": "Payment authorization and settlement events"
+    },
+    {
+      "name": "clicks",
+      "partitions": 12,
+      "replication_factor": 1,
+      "partition_key": "session_id",
+      "consumer_group": "spark-clicks-consumer",
+      "retention_ms": 259200000,
+      "description": "Clickstream and page view events"
+    },
+    {
+      "name": "users",
+      "partitions": 3,
+      "replication_factor": 1,
+      "partition_key": "user_id",
+      "consumer_group": "spark-users-consumer",
+      "retention_ms": 604800000,
+      "description": "User activity and session events"
+    },
+    {
+      "name": "inventory_updates",
+      "partitions": 3,
+      "replication_factor": 1,
+      "partition_key": "product_id",
+      "consumer_group": "spark-inventory-consumer",
+      "retention_ms": 604800000,
+      "description": "Real-time inventory level changes"
+    }
+  ],
+  "consumer_groups": {
+    "spark_streaming": "ecommerce-spark-streaming-v1",
+    "spark_cdc": "ecommerce-spark-cdc-v1",
+    "batch_replay": "ecommerce-batch-replay-v1"
+  }
+}
