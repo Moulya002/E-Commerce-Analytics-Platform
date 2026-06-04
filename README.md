@@ -7,15 +7,6 @@
 
 Production-style **real-time data engineering platform** for portfolio and data engineering interviews. Simulates an e-commerce analytics stack end to end — **runs fully on Docker** without AWS deployment.
 
-## Resume Highlights
-
-- Built a **scalable event-driven pipeline** processing **1.3M+ simulated events/day** (15 evt/sec) across 5 Kafka topics with keyed partitioning
-- Implemented **Spark Structured Streaming** with **10-minute watermarking**, 30-second tumbling windows, and multi-sink outputs (PostgreSQL + Parquet data lake)
-- Designed **medallion architecture** (bronze/silver/gold) with **partitioned Parquet** datasets (`year/month/day`)
-- Delivered **sub-minute KPI latency** to a **Streamlit + Plotly** dashboard (revenue, active users, geo, top products)
-- Integrated **CDC pipeline** (Debezium → Kafka → Spark) capturing PostgreSQL WAL changes
-- Orchestrated batch ETL with **Airflow**; included **AWS Glue / Redshift** reference implementations (simulated locally)
-
 ## Architecture
 
 ```mermaid
