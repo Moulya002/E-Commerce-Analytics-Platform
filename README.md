@@ -1,4 +1,4 @@
-# Real-Time E-Commerce Data Engineering Platform
+# E-Commerce Analytics Platform
 
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
 [![Kafka](https://img.shields.io/badge/Apache_Kafka-Streaming-231F20?logo=apache-kafka)](kafka/)
