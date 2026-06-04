@@ -1,0 +1,14 @@
+FROM bitnamilegacy/spark:3.5.3
+
+USER root
+RUN install_packages python3-pip && pip install --no-cache-dir psycopg2-binary==2.9.9
+RUN chmod +x /workspace/scripts/run_spark_streaming.sh 2>/dev/null || true
+
+WORKDIR /workspace
+
+ENV PYTHONPATH=/workspace
+ENV PYSPARK_PYTHON=python3
+ENV PYSPARK_DRIVER_PYTHON=python3
+
+# Override Bitnami default entrypoint so we can run spark-submit directly
+ENTRYPOINT []

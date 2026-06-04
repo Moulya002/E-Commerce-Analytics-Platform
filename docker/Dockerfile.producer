@@ -1,0 +1,13 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY producers/requirements.txt /app/producers/requirements.txt
+RUN pip install --no-cache-dir -r /app/producers/requirements.txt
+
+COPY configs /app/configs
+COPY producers /app/producers
+
+ENV PYTHONPATH=/app
+
+CMD ["python", "-m", "producers.main"]
