@@ -1,0 +1,4 @@
+v1
+{"path":"file:///data-lake/bronze/users/year=2026/month=6/day=3/part-00000-9173b7c6-9d63-4f53-88c8-4a4a67dacbf1.c000.snappy.parquet","size":16974,"isDir":false,"modificationTime":1780524667992,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/users/year=2026/month=6/day=3/part-00001-00bc800c-8b4d-4bb6-9cb8-6a76017f0eaf.c000.snappy.parquet","size":16967,"isDir":false,"modificationTime":1780524667992,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/users/year=2026/month=6/day=3/part-00002-c83d0386-1cae-48fc-bd07-2dfaabcc8026.c000.snappy.parquet","size":17316,"isDir":false,"modificationTime":1780524668601,"blockReplication":1,"blockSize":33554432,"action":"add"}

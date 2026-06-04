@@ -1,0 +1,3 @@
+v1
+{"path":"file:///data-lake/bronze/users/year=2026/month=6/day=4/part-00000-0aa8ba80-f743-4982-bee5-948cd5d79374.c000.snappy.parquet","size":1459,"isDir":false,"modificationTime":1780531774640,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/users/year=2026/month=6/day=4/part-00001-ec8603bd-ecb6-46e3-9ac2-029194892f02.c000.snappy.parquet","size":1427,"isDir":false,"modificationTime":1780531774552,"blockReplication":1,"blockSize":33554432,"action":"add"}

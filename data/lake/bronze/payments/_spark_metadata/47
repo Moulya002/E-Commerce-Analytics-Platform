@@ -1,0 +1,7 @@
+v1
+{"path":"file:///data-lake/bronze/payments/year=2026/month=6/day=4/part-00000-16ce20fb-c612-40b3-80c7-ee6765e71878.c000.snappy.parquet","size":3654,"isDir":false,"modificationTime":1780531555375,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/payments/year=2026/month=6/day=4/part-00001-bad78bd2-dfe6-4bd9-924e-de1906354f53.c000.snappy.parquet","size":3467,"isDir":false,"modificationTime":1780531555083,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/payments/year=2026/month=6/day=4/part-00002-37514898-6ca0-4c38-b1e0-57dd9d69954c.c000.snappy.parquet","size":3368,"isDir":false,"modificationTime":1780531555638,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/payments/year=2026/month=6/day=4/part-00003-1f1d81ed-d2ca-41f5-81b8-1be45d2d803c.c000.snappy.parquet","size":3556,"isDir":false,"modificationTime":1780531555929,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/payments/year=2026/month=6/day=4/part-00004-63a5ba35-e015-4368-bd84-64bcdc079c6a.c000.snappy.parquet","size":3485,"isDir":false,"modificationTime":1780531556176,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/payments/year=2026/month=6/day=4/part-00005-ab0e2d1e-5a52-4c13-a668-6fad1c45fea5.c000.snappy.parquet","size":3362,"isDir":false,"modificationTime":1780531556420,"blockReplication":1,"blockSize":33554432,"action":"add"}

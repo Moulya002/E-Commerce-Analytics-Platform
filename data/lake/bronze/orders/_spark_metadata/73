@@ -1,0 +1,7 @@
+v1
+{"path":"file:///data-lake/bronze/orders/year=2026/month=6/day=4/part-00000-efd684f2-d627-4ab0-b632-af905cf580d5.c000.snappy.parquet","size":3976,"isDir":false,"modificationTime":1780532582051,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/orders/year=2026/month=6/day=4/part-00001-b968dbe1-d942-4fdd-b8ed-ba947e107ebb.c000.snappy.parquet","size":4464,"isDir":false,"modificationTime":1780532582219,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/orders/year=2026/month=6/day=4/part-00002-599fcc2b-a4a0-416d-8957-2b43fe405ead.c000.snappy.parquet","size":4134,"isDir":false,"modificationTime":1780532582592,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/orders/year=2026/month=6/day=4/part-00003-f26816fb-80f5-4a1a-9232-53e1b19c6608.c000.snappy.parquet","size":4391,"isDir":false,"modificationTime":1780532582755,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/orders/year=2026/month=6/day=4/part-00004-8fdfa0b2-d025-4af6-bc78-e91b384a17b8.c000.snappy.parquet","size":3858,"isDir":false,"modificationTime":1780532583135,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///data-lake/bronze/orders/year=2026/month=6/day=4/part-00005-c272a656-91ce-4548-9566-50dd6bfbde74.c000.snappy.parquet","size":4269,"isDir":false,"modificationTime":1780532583296,"blockReplication":1,"blockSize":33554432,"action":"add"}
