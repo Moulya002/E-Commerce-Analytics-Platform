@@ -127,7 +127,8 @@ Details: [docs/LOCAL_VS_CLOUD.md](docs/LOCAL_VS_CLOUD.md)
 
 ## Screenshots
 
-Add captures to `docs/screenshots/` for your README:
+Added captures to `docs/screenshots/` 
+
 
 1. Dashboard KPI row + revenue chart  
 2. Spark UI with `ecommerce-unified-streaming`  
