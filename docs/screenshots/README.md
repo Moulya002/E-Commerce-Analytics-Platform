@@ -1,6 +1,8 @@
 # Dashboard Screenshots
 
 Place screenshots here after running the platform locally.
+<img width="1470" height="878" alt="Screenshot 2026-06-03 at 8 30 35 PM" src="https://github.com/user-attachments/assets/8023ba1d-ec1e-49fc-a248-210ce78b326c" />
+
 
 ## How to Capture
 
