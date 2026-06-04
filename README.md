@@ -127,13 +127,8 @@ Details: [docs/LOCAL_VS_CLOUD.md](docs/LOCAL_VS_CLOUD.md)
 
 ## Screenshots
 
-Added captures to `docs/screenshots/` 
+<img width="1470" height="878" alt="Screenshot 2026-06-03 at 8 30 35 PM" src="https://github.com/user-attachments/assets/f5b091e8-35d5-4c48-bb5a-6b49cfdcf2fd" />
 
-
-1. Dashboard KPI row + revenue chart  
-2. Spark UI with `ecommerce-unified-streaming`  
-3. `docker compose ps` showing healthy services  
-4. `data/lake/bronze/orders/` parquet files  
 
 ## Documentation
 
