@@ -1,0 +1,46 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# AWS / Local
+.aws/
+localstack-data/
+
+# Data lake outputs (keep folder structure)
+data/lake/**/*.parquet
+data/lake/**/_SUCCESS
+data/lake/**/_committed_*
+!data/lake/**/.gitkeep
+data/tmp/
+
+# Secrets
+*.pem
+credentials.json
