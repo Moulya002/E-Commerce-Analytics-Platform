@@ -34,8 +34,11 @@ airflow/airflow.db
 .aws/
 localstack-data/
 
-# Data lake outputs (keep folder structure)
+# Data lake runtime outputs (keep folder structure via .gitkeep)
+data/lake/checkpoints/
+data/lake/**/_spark_metadata/
 data/lake/**/*.parquet
+data/lake/**/*.crc
 data/lake/**/_SUCCESS
 data/lake/**/_committed_*
 !data/lake/**/.gitkeep
