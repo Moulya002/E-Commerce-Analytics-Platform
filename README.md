@@ -5,7 +5,7 @@
 [![Spark](https://img.shields.io/badge/Spark-Structured_Streaming-E25A1C?logo=apache-spark)](spark/)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python)](producers/)
 
-Production-style **real-time data engineering platform** for portfolio and data engineering interviews. Simulates an e-commerce analytics stack end to end — **runs fully on Docker** without AWS deployment.
+Production-style **real-time data engineering platform** which simulates an e-commerce analytics stack end to end — **runs fully on Docker** without AWS deployment.
 
 ## Architecture
 
